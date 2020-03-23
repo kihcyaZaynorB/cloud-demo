@@ -21,3 +21,13 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+.settings
+target
+.project
+.classpath
+.externalToolBuilders
+.idea
+*.iml
+/src/main/resources/public/SenchaApp/build/
+/src/main/resources/public/prd/
+/src/main/resources/public/SenchaApp/PRD/**/bootstrap.*
