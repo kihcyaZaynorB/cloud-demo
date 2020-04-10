@@ -1,4 +1,4 @@
-package com.kihcyaz.aynorb.cloud.payment.vo;
+package com.kihcyaz.aynorb.cloud.common.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ServerResponse<T> {
-
     private Integer code;
 
     private String message;

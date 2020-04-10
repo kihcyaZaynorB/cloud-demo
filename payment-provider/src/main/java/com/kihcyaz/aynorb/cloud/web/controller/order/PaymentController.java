@@ -1,8 +1,8 @@
-package com.kihcyaz.aynorb.cloud.web.controller.payment;
+package com.kihcyaz.aynorb.cloud.web.controller.order;
 
+import com.kihcyaz.aynorb.cloud.common.vo.ServerResponse;
 import com.kihcyaz.aynorb.cloud.payment.entity.Payment;
 import com.kihcyaz.aynorb.cloud.payment.service.PaymentService;
-import com.kihcyaz.aynorb.cloud.payment.vo.ServerResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

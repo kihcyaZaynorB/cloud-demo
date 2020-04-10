@@ -24,10 +24,11 @@ public class SwaggerConfig {
                 .build();
     }
 
+
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("payment provider module")
-                .description("api documentation of payment provider module")
+                .title("order consumer module")
+                .description("api documentation of order consumer module")
                 .version("v1.0")
                 .build();
     }
